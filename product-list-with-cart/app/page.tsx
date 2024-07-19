@@ -1,8 +1,9 @@
 export default function Page(){
     return (
-        <div className="px-4 py-6 xs:bg-red-500 sm:px-0 md:bg-blue-800">
-            <h2 className="text-xl font-semibold mb-4">Welcome</h2>
-            <p className="text-gray-600">This is your mobile-friendly content.</p>
+        <div className="px-4 py-6">
+            <h2 className="text-5xl font-semibold mb-4">Desserts</h2>
+
+        {/* todo create a for loop that will create dessert cards based on the desserts from the given data*/}
         </div>
     );
 }
