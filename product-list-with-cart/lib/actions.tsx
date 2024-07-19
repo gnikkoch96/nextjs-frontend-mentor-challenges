@@ -1,16 +1,5 @@
 import dessertData from '@/public/data.json';
-
-interface Dessert {
-    image: {
-        thumbnail: string;
-        mobile: string;
-        tablet: string;
-        desktop: string;
-    },
-    name: string,
-    category: string,
-    price: number
-}
+import {Dessert} from '@/types/interfaces';
 
 export function getDessertData(){
     const desserts: Dessert[] = dessertData as Dessert[];
